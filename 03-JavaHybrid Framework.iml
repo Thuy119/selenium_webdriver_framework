@@ -7,9 +7,15 @@
       <sourceFolder url="file://$MODULE_DIR$/hybrid-framework-nopcommerce/interfaces" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hybrid-framework-nopcommerce/javaTester" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hybrid-framework-nopcommerce/testcases" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hybrid-framework-nopcommerce" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hybrid-framework-nopcommerce/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="libraries" level="project" />
+    <orderEntry type="library" name="selenium-testng" level="project" />
+    <orderEntry type="library" name="webdriver-manager" level="project" />
+    <orderEntry type="library" name="extent2" level="project" />
+    <orderEntry type="library" name="log4j2" level="project" />
+    <orderEntry type="library" name="reportNG" level="project" />
   </component>
 </module>

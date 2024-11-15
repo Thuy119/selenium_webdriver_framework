@@ -1,0 +1,6 @@
+[15-11-2024 15:26:48.106 INFO com.orangehrm.pim.PIM_01_Employee_Log4J] - Employee_01_Add_New - STEP 01: Open Employee List Page
+[15-11-2024 15:27:52.509 INFO com.orangehrm.pim.PIM_01_Employee_Log4J] - Employee_01_Add_New - STEP 02: Open Add New Employee Page
+[15-11-2024 15:28:20.819 INFO com.orangehrm.pim.PIM_01_Employee_Log4J] - Employee_01_Add_New - STEP 03: Enter to First Name Textbox Thuy
+[15-11-2024 15:28:22.216 INFO com.orangehrm.pim.PIM_01_Employee_Log4J] - Employee_01_Add_New - STEP 04: Enter to Last Name Textbox Nguyen
+[15-11-2024 15:28:22.311 INFO com.orangehrm.pim.PIM_01_Employee_Log4J] - Employee_01_Add_New - STEP 05: Get employee ID null
+[15-11-2024 15:28:22.407 INFO com.orangehrm.pim.PIM_01_Employee_Log4J] - Employee_01_Add_New - STEP 06: Open Personal Detail Page 

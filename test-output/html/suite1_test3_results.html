@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Run on Edge browser</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Run on Edge browser</h1>
+<p>
+  Test duration: 56.555s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.orangehrm.pim.PIM_01_Employee_Log4J</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  Employee_02_Upload_Avatar
+      </td>
+  <td class="duration">
+    5.649s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        <br><a target="_blank" href="file:///E:\Automation Testing\03-JavaHybrid Framework\htmlReportNG\Employee_02_Upload_Avatar_15_11_2024_02_03_05.png"><img src="file:///E:\Automation Testing\03-JavaHybrid Framework\htmlReportNG\Employee_02_Upload_Avatar_15_11_2024_02_03_05.png" height='100' width='150'/> </a></br>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : E:\Automation Testing\03-JavaHybrid Framework\uploadFiles\DaNang.jpg<br/>
+&nbsp; (Session info: MicrosoftEdge=130.0.2849.80)<br/>
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;<br/>
+Driver info: org.openqa.selenium.edge.EdgeDriver<br/>
+Command: [d84503c7e895f915c789cb70a6ce2423, sendKeysToElement {id=f.2B215B3A5FCF239ADF762D4D0B5A732C.d.824CD02F7A56187D2E7B785D372ECE5F.e.176, value=[Ljava.lang.CharSequence;@6babffb5}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 130.0.2849.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59488}, msedge: {msedgedriverVersion: 130.0.2849.80 (bbf5e2881b22..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59488/devtoo..., se:cdpVersion: 130.0.2849.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Element: [[EdgeDriver: MicrosoftEdge on windows (d84503c7e895f915c789cb70a6ce2423)] -&gt; xpath: //input[@type=&apos;file&apos;]]<br/>
+Session ID: d84503c7e895f915c789cb70a6ce2423</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)<br />
+              org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)<br />
+              commons.BasePage.uploadMultipleFiles(BasePage.java:347)<br />
+              com.orangehrm.pim.PIM_01_Employee_Log4J.Employee_02_Upload_Avatar(PIM_01_Employee_Log4J.java:103)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.orangehrm.pim.PIM_01_Employee_Log4J</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  Employee_01_Add_New
+      </td>
+  <td class="duration">
+    18.681s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Employee_01_Add_New - STEP 01: Open Employee List Page
+                                Employee_01_Add_New - STEP 02: Open Add New Employee Page
+                                Employee_01_Add_New - STEP 03: Enter to First Name Textbox Thuy
+                                Employee_01_Add_New - STEP 04: Enter to Last Name Textbox Nguyen
+                                Employee_01_Add_New - STEP 05: Get employee ID null
+                                Employee_01_Add_New - STEP 06: Open Personal Detail Page 
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Employee_03_Personal_Detail
+      </td>
+  <td class="duration">
+    6.157s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Employee_04_Contact_Detail
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Employee_05_Emergency_Detail
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Employee_06_Assigned_Dependents
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Employee_07_Edit_View_Job
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Employee_08_Edit_View_Salary
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Employee_09_Edit_View_Tax
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Employee_10_Quatilifications
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Employee_11_Search_Empoyee
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

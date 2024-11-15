@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="NopCommerce Automation Test" verbose="1">
+
+
+    <listeners>
+        <listener class-name="reportConfig.ExtentListener"></listener>
+    </listeners>
+
+
+    <test name="Run on Firefox browser">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.nopcommerce.users.User_01_Level4_Multiple_Browser"/>
+        </classes>
+    </test>
+
+
+    <test name="Run on Chrome browser">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.nopcommerce.users.User_01_Level4_Multiple_Browser"/>
+        </classes>
+    </test>
+
+
+    <test name="Run on Edge chromium browser">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="com.nopcommerce.users.User_01_Level4_Multiple_Browser"/>
+        </classes>
+    </test>
+
+
+
+
+
+
+
+
+
+
+
+</suite>
+
